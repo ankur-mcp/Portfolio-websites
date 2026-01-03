@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pankaj Global Realty | India & International</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    #markets:hover{
+        cursor: pointer;
+    }
+</style>
+
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        gold: '#C9A24D',
+        dark: '#0A0A0A'
+      }
+    }
+  }
+}
+</script>
+</head>
+
+<body class="bg-dark text-gray-200 scroll-smooth">
+    
+
+<!-- NAVBAR -->
+<nav class="fixed w-full bg-dark/90 backdrop-blur border-b border-gray-800 z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-gold">Pankaj Global Realty</h1>
+    <div class="hidden md:flex gap-8">
+      <a href="#home" class="hover:text-gold">Home</a>
+      <a href="#about" class="hover:text-gold">About</a>
+      <a href="#markets" class="hover:text-gold">Markets</a>
+      <a href="#properties" class="hover:text-gold">Properties</a>
+      <a href="#contact" class="hover:text-gold">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="pt-36 pb-28 text-center">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-4xl md:text-6xl font-bold mb-6">
+      Global Real Estate Solutions
+    </h2>
+    <p class="text-gray-400 text-lg mb-8">
+      Based in Agra • Serving India & International Clients
+    </p>
+    <a href="#contact"
+       class="bg-gold text-dark px-10 py-4 rounded-lg font-semibold">
+       Get Consultation
+    </a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 bg-black">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+         class="rounded-xl shadow-xl">
+    <div>
+      <h3 class="text-3xl font-bold text-gold mb-4">About Pankaj Sharma</h3>
+      <p class="text-gray-400 mb-4">
+        Trusted real estate consultant from Agra providing residential,
+        commercial, and investment properties across India and abroad.
+      </p>
+      <p class="text-gray-400">
+        Specialized in NRI & foreign investments with complete transparency.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- MARKETS -->
+<!-- ================= GLOBAL MARKETS SECTION ================= -->
+<section id="markets" class="py-28 bg-dark">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Heading -->
+    <div class="text-center mb-20">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">
+        Global <span class="text-gold">Markets</span>
+      </h2>
+      <p class="text-gray-400 max-w-2xl mx-auto">
+        Premium real estate opportunities across India and leading international markets,
+        trusted by NRI and global investors.
+      </p>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="grid md:grid-cols-4 gap-8">
+
+      <!-- INDIA -->
+      <div
+        class="group relative overflow-hidden rounded-2xl border border-gray-800 bg-black
+        transition-all duration-500 hover:-translate-y-3
+        hover:border-gold hover:shadow-[0_25px_50px_rgba(201,162,77,0.25)]">
+
+        <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da"
+             class="h-56 w-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+
+        <div class="relative p-6 text-center">
+          <div class="text-4xl mb-3">🇮🇳</div>
+          <h3 class="text-xl font-semibold mb-2 group-hover:text-gold transition">
+            India
+          </h3>
+          <p class="text-sm text-gray-400 mb-4">
+            Residential & Commercial Assets
+          </p>
+
+          <button
+            class="opacity-0 group-hover:opacity-100 transition duration-500
+            bg-gold text-dark px-5 py-2 rounded-full text-sm font-semibold">
+            Explore
+          </button>
+        </div>
+      </div>
+
+      <!-- UAE -->
+      <div
+        class="group relative overflow-hidden rounded-2xl border border-gray-800 bg-black
+        transition-all duration-500 hover:-translate-y-3
+        hover:border-gold hover:shadow-[0_25px_50px_rgba(201,162,77,0.25)]">
+
+        <img src="image/uae.jpg"
+             class="h-56 w-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+
+        <div class="relative p-6 text-center">
+          <div class="text-4xl mb-3">🇦🇪</div>
+          <h3 class="text-xl font-semibold mb-2 group-hover:text-gold transition">
+            UAE
+          </h3>
+          <p class="text-sm text-gray-400 mb-4">
+            Luxury & High-ROI Investments
+          </p>
+
+          <button
+            class="opacity-0 group-hover:opacity-100 transition duration-500
+            bg-gold text-dark px-5 py-2 rounded-full text-sm font-semibold">
+            Explore
+          </button>
+        </div>
+      </div>
+
+      <!-- CANADA -->
+      <div 
+        class="group relative overflow-hidden rounded-2xl border border-gray-800 bg-black
+        transition-all duration-500 hover:-translate-y-3
+        hover:border-gold hover:shadow-[0_25px_50px_rgba(201,162,77,0.25)]">
+
+        <img src="image/canada.jpg"
+             class="h-56 w-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+
+        <div class="relative p-6 text-center">
+          <div class="text-4xl mb-3">🇨🇦</div>
+          <h3 class="text-xl font-semibold mb-2 group-hover:text-gold transition">
+            Canada
+          </h3>
+          <p class="text-sm text-gray-400 mb-4">
+            NRI-Friendly Residential Market
+          </p>
+
+          <button
+            class="opacity-0 group-hover:opacity-100 transition duration-500
+            bg-gold text-dark px-5 py-2 rounded-full text-sm font-semibold">
+            Explore
+          </button>
+        </div>
+      </div>
+
+      <!-- UK -->
+      <div
+        class="group relative overflow-hidden rounded-2xl border border-gray-800 bg-black
+        transition-all duration-500 hover:-translate-y-3
+        hover:border-gold hover:shadow-[0_25px_50px_rgba(201,162,77,0.25)]">
+
+        <img src="image/uk.jpg"
+             class="h-56 w-full object-cover transition-transform duration-700 group-hover:scale-110"/>
+
+        <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+
+        <div class="relative p-6 text-center">
+          <div class="text-4xl mb-3">🇬🇧</div>
+          <h3 class="text-xl font-semibold mb-2 group-hover:text-gold transition">
+            United Kingdom
+          </h3>
+          <p class="text-sm text-gray-400 mb-4">
+            Stable & High-Yield Properties
+          </p>
+
+          <button
+            class="opacity-0 group-hover:opacity-100 transition duration-500
+            bg-gold text-dark px-5 py-2 rounded-full text-sm font-semibold">
+            Explore
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- PROPERTIES -->
+<section id="properties" class="py-20 bg-black">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center text-gold mb-12">
+      Featured Properties
+    </h3>
+
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-dark rounded-xl overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c">
+        <div class="p-5">
+          <h4 class="font-semibold">Luxury Villa</h4>
+          <p class="text-gray-400">India</p>
+        </div>
+      </div>
+
+      <div class="bg-dark rounded-xl overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994">
+        <div class="p-5">
+          <h4 class="font-semibold">NRI Apartment</h4>
+          <p class="text-gray-400">Dubai</p>
+        </div>
+      </div>
+
+      <div class="bg-dark rounded-xl overflow-hidden shadow-lg">
+        <img src="https://images.unsplash.com/photo-1605146769289-440113cc3d00">
+        <div class="p-5">
+          <h4 class="font-semibold">Commercial Property</h4>
+          <p class="text-gray-400">India & Overseas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20">
+  <div class="max-w-xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center text-gold mb-8">
+      Contact Us
+    </h3>
+    <form class="space-y-4">
+      <input class="w-full px-4 py-3 bg-black border border-gray-800 rounded" placeholder="Name">
+      <input class="w-full px-4 py-3 bg-black border border-gray-800 rounded" placeholder="Email">
+      <input class="w-full px-4 py-3 bg-black border border-gray-800 rounded" placeholder="Country">
+      <textarea class="w-full px-4 py-3 bg-black border border-gray-800 rounded"
+        placeholder="Property Requirement"></textarea>
+      <button class="w-full bg-gold text-dark py-3 rounded font-semibold">
+        Submit Inquiry
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/919412722511"
+class="fixed bottom-6 right-6 bg-green-500 px-5 py-3 rounded-full shadow-lg hover:scale-105 transition">
+WhatsApp
+</a>
+
+<!-- CHATBOT BUTTON -->
+<button id="chatBtn"
+class="fixed bottom-6 left-6 bg-gold text-dark px-4 py-3 rounded-full shadow-lg">
+💬 Chat
+</button>
+
+<!-- CHATBOT BOX -->
+<div id="chatBox"
+class="hidden fixed bottom-20 left-6 w-80 bg-black border border-gray-800 rounded-xl shadow-xl">
+
+  <div class="bg-gold text-dark px-4 py-3 rounded-t-xl font-semibold">
+    Realty Assistant
+  </div>
+
+  <div id="chatMessages"
+  class="p-4 h-64 overflow-y-auto text-sm space-y-3">
+
+    <div class="text-gray-300">
+      👋 Welcome to <b>Pankaj Global Realty</b><br>
+      Please choose an option:
+    </div>
+
+    <button onclick="selectOption('buy')" class="w-full border border-gray-700 px-3 py-2 rounded hover:bg-gray-800">
+      🏠 Buy Property
+    </button>
+
+    <button onclick="selectOption('sell')" class="w-full border border-gray-700 px-3 py-2 rounded hover:bg-gray-800">
+      💼 Sell Property
+    </button>
+
+    <button onclick="selectOption('india')" class="w-full border border-gray-700 px-3 py-2 rounded hover:bg-gray-800">
+      🇮🇳 India Market
+    </button>
+
+    <button onclick="selectOption('international')" class="w-full border border-gray-700 px-3 py-2 rounded hover:bg-gray-800">
+      🌍 International / NRI
+    </button>
+
+    <button onclick="selectOption('contact')" class="w-full border border-gray-700 px-3 py-2 rounded hover:bg-gray-800">
+      📞 Contact Details
+    </button>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-black text-gray-500 text-center py-4">
+© 2026 Pankaj Global Realty | Agra • India • International
+</footer>
+
+<!-- CHATBOT SCRIPT -->
+<script>
+const chatBtn = document.getElementById("chatBtn");
+const chatBox = document.getElementById("chatBox");
+const chatMessages = document.getElementById("chatMessages");
+
+chatBtn.onclick = () => chatBox.classList.toggle("hidden");
+
+function selectOption(type) {
+  let reply = "";
+
+  if (type === "buy")
+    reply = "🏠 We offer premium properties in India & abroad. Please share your location preference.";
+  else if (type === "sell")
+    reply = "💼 We help sell properties at the best market value.";
+  else if (type === "india")
+    reply = "🇮🇳 We deal in residential & commercial properties across India including Agra.";
+  else if (type === "international")
+    reply = "🌍 We specialize in NRI & international investments (UAE, UK, Canada).";
+  else if (type === "contact")
+    reply = "📞 WhatsApp: +91-99999-99999<br>📍 Agra, India";
+
+  chatMessages.innerHTML += `<div class="text-gray-300">${reply}</div>`;
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+</script>
+
+</body>
+</html>
